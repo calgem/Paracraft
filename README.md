@@ -2,12 +2,12 @@
 
 Hanna M Breunig; Adam Z Weber; Seongeun Jeong; Mohammed Tamim Zaki
 
-The hydrogen (H~2~) hub systems analysis and mapping tool "Paracraft"
+The hydrogen (H<sub>2</sub>) hub systems analysis and mapping tool "Paracraft"
 developed using R version 4.3.2 is an integrated life cycle assessment
 (LCA), techno-economic analysis (TEA), and geospatial analysis tool. The
-tool quantifies the environmental and economic impacts of a H~2~ hub
+tool quantifies the environmental and economic impacts of a H<sub>2</sub> hub
 that includes feedstock, production, infrastructure/storage,
-distribution, and end-use of H~2~ within the system boundary. Additional
+distribution, and end-use of H<sub>2</sub> within the system boundary. Additional
 modules and impacts will be integrated into the software throughout the
 Department of Energy (DOE) ARCHES hydrogen hub project through a
 multi-institution collaboration involving the Lawrence Berkeley National
@@ -25,25 +25,25 @@ Version 1 of the tool includes modules for the following components:
     exchange membrane (PEM) water electrolysis, Biomass thermochemical
     conversion, and Biomass gasification.
 
-3.  [Infrastructure/storage:]{.underline} H~2~ compression, H~2~
-    liquefaction, and storage for compressed and liquefied H~2~.
+3.  [Infrastructure/storage:]{.underline} H<sub>2</sub> compression, H<sub>2</sub>
+    liquefaction, and storage for compressed and liquefied H<sub>2</sub>.
 
 4.  [Distribution:]{.underline} Truck transport of compressed and
-    liquefied H~2~ and pipeline transport of compressed H~2~.
+    liquefied H<sub>2</sub> and pipeline transport of compressed H<sub>2</sub>.
 
 5.  [End-use:]{.underline} Refueling stations and medium duty class 6
     trucks, transit buses, fuel cell and peaker plant for power
     generation, and aviation fuel.
 
 The environmental impacts from LCA are quantified as net carbon dioxide
-equivalent emissions (kg CO~2~e/kg H~2~), sulfur dioxide emissions (g
-SO~2~/kg H~2~), nitrogen oxide emissions (g NO~x~/kg H~2~), and
-particulate matter emissions (g PM~10~/kg H~2~ and g PM~2.5~/kg H~2~).
+equivalent emissions (kg CO<sub>2</sub>e/kg H<sub>2</sub>), sulfur dioxide emissions (g
+SO<sub>2</sub>/kg H<sub>2</sub>), nitrogen oxide emissions (g NO~x~/kg H<sub>2</sub>), and
+particulate matter emissions (g PM~10~/kg H<sub>2</sub> and g PM~2.5~/kg H<sub>2</sub>).
 Health impacts and benefits associated with net changes in air quality
 will be provided in a subsequent version.
 
 The economic impact from TEA is quantified as total levelized cost
-(\$/kg H~2~). Net present value, total revenue, total policy incentives,
+(\$/kg H<sub>2</sub>). Net present value, total revenue, total policy incentives,
 and other financial performance indicators will be provided in a
 subsequent version following the approach used in the DOE H2FAST model.
 
@@ -53,13 +53,13 @@ subsequent version following the approach used in the DOE H2FAST model.
     modification of projects in a hub over time.
 
 -   [LCA:]{.underline} Emissions from feedstock preparation and
-    acquisition, H~2~ production, H~2~ postprocessing and compression
-    and/or liquefaction, H~2~ transport, and avoided emissions from H~2~
+    acquisition, H<sub>2</sub> production, H<sub>2</sub> postprocessing and compression
+    and/or liquefaction, H<sub>2</sub> transport, and avoided emissions from H<sub>2</sub>
     end-uses that offset current fossil fuel consumption.
 
 -   [TEA:]{.underline} Total levelized cost (capital, operation and
-    maintenance) of feedstock preparation, H~2~ production, H~2~
-    compression and/or liquefaction, and H~2~ transport.
+    maintenance) of feedstock preparation, H<sub>2</sub> production, H<sub>2</sub>
+    compression and/or liquefaction, and H<sub>2</sub> transport.
 
 End-user markup and total levelized cost to consumers will be available
 in the next version.
@@ -108,38 +108,38 @@ spreadsheet includes six tabs and should be prepared as follows:
     -   *Latitude* and *Longitude*: Type project location in decimal
         degrees.
 
-    -   *H~2~ production process*: Type "Alkaline electrolysis", "PEM
+    -   *H<sub>2</sub> production process*: Type "Alkaline electrolysis", "PEM
         electrolysis", "Biomass gasification", or "Biomass
         thermochemical". These inputs are case-sensitive.
 
-    -   *Ratio of liquified H~2~* and *Ratio of compressed H~2~*: Type
+    -   *Ratio of liquified H<sub>2</sub>* and *Ratio of compressed H<sub>2</sub>*: Type
         ratios of produced H2 liquified and/or compressed ranging
         between 0 and 1.
 
-    -   *PV electricity ratio for H~2~ production, PPA electricity ratio
-        for H~2~ production, Other renewable electricity ratio for H~2~
-        production, PHS electricity ratio for H~2~ production,* and
-        *Grid electricity ratio for H~2~ production*: Type ratios of
-        various electricity sources used for H~2~ production ranging
+    -   *PV electricity ratio for H<sub>2</sub> production, PPA electricity ratio
+        for H<sub>2</sub> production, Other renewable electricity ratio for H<sub>2</sub>
+        production, PHS electricity ratio for H<sub>2</sub> production,* and
+        *Grid electricity ratio for H<sub>2</sub> production*: Type ratios of
+        various electricity sources used for H<sub>2</sub> production ranging
         between 0 and 1. When using multiple electricity sources, user
         should make sure that the sum of the ratios is 1.
 
     -   *Biomass type*: Type "Woody" or "MSW". These inputs are
         case-sensitive.
 
-    -   *Biomass consumption*: Type biomass used for H~2~ production in
+    -   *Biomass consumption*: Type biomass used for H<sub>2</sub> production in
         in specified units.
 
     -   *Biomass emissions avoidance source*: Type "Landfill" or "N/A".
         These inputs are case-sensitive.
 
-    -   *H~2~ Distribution*: Type "Truck" or "Pipeline". These inputs
+    -   *H<sub>2</sub> Distribution*: Type "Truck" or "Pipeline". These inputs
         are case-sensitive.
 
-    -   *H~2~ travel distance*: Type distance liquefied and/compressed
-        H~2~ travels via truck and/or pipeline in specified units.
+    -   *H<sub>2</sub> travel distance*: Type distance liquefied and/compressed
+        H<sub>2</sub> travels via truck and/or pipeline in specified units.
 
-    -   *H~2~ transport cost*: Type cost of transporting H~2~ via truck
+    -   *H<sub>2</sub> transport cost*: Type cost of transporting H<sub>2</sub> via truck
         and/or pipeline in specified units.
 
 Among **optional user inputs** in this tab are: *Electrolyzer size,
@@ -149,11 +149,11 @@ Storage tank CAPEX, Misc. electricity usage, Water consumption,* and
 known in the specified units.
 
 Apart from the mandatory and optional user inputs, there are **default
-inputs** (*Labor cost, Electrolyzer maintenance cost, KOH and/or N~2~
+inputs** (*Labor cost, Electrolyzer maintenance cost, KOH and/or N<sub>2</sub>
 cost, Liquefier maintenance cost, Natural gas consumption by biomass
 conversion, Diesel consumption by biomass conversion, Biomass transport
 and preparation emissions, Biomass conversion maintenance emissions,
-Soil carbon storage, SO~2~ emissions from biomass conversion, NO~x~
+Soil carbon storage, SO<sub>2</sub> emissions from biomass conversion, NO~x~
 emissions from biomass conversion,* and *PM10 emissions from biomass
 conversion*), which if known by user should be typed in the specified
 units.
@@ -175,7 +175,7 @@ units.
         These inputs are case-sensitive.
 
     -   *Fuel type*: type "Natural gas" or "Ultra low sulfur diesel".
-        These inputs represent the type of fuel avoided by H~2~. These
+        These inputs represent the type of fuel avoided by H<sub>2</sub>. These
         inputs are case-sensitive.
 
 6.  [Demand:]{.underline} Year-specific average daily hydrogen demand
@@ -204,25 +204,25 @@ change the name of the main folder if needed for later comparison):
 
 2.  [Producer:]{.underline}
 
-    a.  [Emissions_CO2:]{.underline} Net CO~2~ emissions from feedstock
-        preparation, H~2~ production, H~2~ compression and/or
-        liquefaction, and H~2~ transport.
+    a.  [Emissions_CO2:]{.underline} Net CO<sub>2</sub> emissions from feedstock
+        preparation, H<sub>2</sub> production, H<sub>2</sub> compression and/or
+        liquefaction, and H<sub>2</sub> transport.
 
         i.  [Regional_CO2_emissions.jpg:]{.underline} Map with regional
-            CO~2~ emissions.
+            CO<sub>2</sub> emissions.
 
         ii. [Temporal_CO2_emissions.jpg:]{.underline} Plot with temporal
-            CO~2~ emissions.
+            CO<sub>2</sub> emissions.
 
         iii. [Breakdown_CO2_emissions.jpg:]{.underline} Plot with
-             breakdown of CO~2~ emissions.
+             breakdown of CO<sub>2</sub> emissions.
 
     b.  [Emissions_other:]{.underline} Other criteria emissions from
-        feedstock preparation, H~2~ production, H~2~ compression and/or
-        liquefaction, and H~2~ transport.
+        feedstock preparation, H<sub>2</sub> production, H<sub>2</sub> compression and/or
+        liquefaction, and H<sub>2</sub> transport.
 
         i.  [Regional_SO2_emissions.jpg:]{.underline} Map with regional
-            SO~2~ emissions.
+            SO<sub>2</sub> emissions.
 
         ii. [Regional_NOx_emissions.jpg:]{.underline} Map with regional
             NO~x~ emissions.
@@ -231,7 +231,7 @@ change the name of the main folder if needed for later comparison):
              regional PM10 emissions.
 
     c.  [Costs:]{.underline} Total costs from feedstock preparation,
-        H~2~ production, H~2~ compression and/or liquefaction, and H~2~
+        H<sub>2</sub> production, H<sub>2</sub> compression and/or liquefaction, and H<sub>2</sub>
         transport.
 
         i.  [Regional_cost.jpg:]{.underline} Map with regional total
@@ -245,23 +245,23 @@ change the name of the main folder if needed for later comparison):
 
 3.  [Enduser:]{.underline}
 
-    a.  [Emissions_CO2:]{.underline} Net CO~2~ emissions avoided by
+    a.  [Emissions_CO2:]{.underline} Net CO<sub>2</sub> emissions avoided by
         endusers.
 
         i.  [Regional_CO2_avoided.jpg:]{.underline} Map with regional
-            CO~2~ emissions.
+            CO<sub>2</sub> emissions.
 
         ii. [Temporal_CO2_avoided.jpg:]{.underline} Plot with temporal
-            CO~2~ emissions.
+            CO<sub>2</sub> emissions.
 
         iii. [Breakdown_CO2_avoided.jpg:]{.underline} Plot with
-             breakdown of CO~2~ emissions.
+             breakdown of CO<sub>2</sub> emissions.
 
     b.  [Emissions_other:]{.underline} Other criteria emissions avoided
         by endusers.
 
         i.  [Regional_SO2_emissions.jpg:]{.underline} Map with regional
-            SO~2~ emissions.
+            SO<sub>2</sub> emissions.
 
         ii. [Regional_NOx_emissions.jpg:]{.underline} Map with regional
             NO~x~ emissions.
