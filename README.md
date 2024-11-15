@@ -21,7 +21,7 @@ Version 1 of the tool includes modules for the following components:
     agreement, and renewables), water, and biomass (municipal solid
     waste and woody waste)
 
-2.  [Production:]{.underline} Alkaline water electrolysis, Proton
+2.  **Production**: Alkaline water electrolysis, Proton
     exchange membrane (PEM) water electrolysis, Biomass thermochemical
     conversion, and Biomass gasification.
 
