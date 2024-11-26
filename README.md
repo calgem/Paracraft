@@ -17,15 +17,15 @@ Renewable Energy Laboratory, ARCHES LLC, and Jacobs.
 
 Version 1 of the tool includes modules for the following components:
 
-1.  **Feedstock**: Electricity (grid, power purchase
+1.  <u>Feedstock</u>: Electricity (grid, power purchase
     agreement, and renewables), water, and biomass (municipal solid
     waste and woody waste)
 
-2.  **Production**: Alkaline water electrolysis, Proton
+2.  <u>Production</u>: Alkaline water electrolysis, Proton
     exchange membrane (PEM) water electrolysis, Biomass thermochemical
     conversion, and Biomass gasification.
 
-3.  [Infrastructure/storage:]{.underline} H<sub>2</sub> compression, H<sub>2</sub>
+3.  <u>Infrastructure/storage</u>: H<sub>2</sub> compression, H<sub>2</sub>
     liquefaction, and storage for compressed and liquefied H<sub>2</sub>.
 
 4.  [Distribution:]{.underline} Truck transport of compressed and
@@ -49,28 +49,28 @@ subsequent version following the approach used in the DOE H2FAST model.
 
 ***Capabilities of version 1***
 
--   **Projects**: Flexible inclusion, exclusion, and
+-   <u>Projects</u>: Flexible inclusion, exclusion, and
     modification of projects in a hub over time.
 
--   [LCA:]{.underline} Emissions from feedstock preparation and
+-   <u>LCA</u>: Emissions from feedstock preparation and
     acquisition, H<sub>2</sub> production, H<sub>2</sub> postprocessing and compression
     and/or liquefaction, H<sub>2</sub> transport, and avoided emissions from H<sub>2</sub>
     end-uses that offset current fossil fuel consumption.
 
--   [TEA:]{.underline} Total levelized cost (capital, operation and
+-   <u>TEA</u>: Total levelized cost (capital, operation and
     maintenance) of feedstock preparation, H<sub>2</sub> production, H<sub>2</sub>
     compression and/or liquefaction, and H<sub>2</sub> transport.
 
 End-user markup and total levelized cost to consumers will be available
 in the next version.
 
--   [Geospatial:]{.underline} Linking projects to specific regions in
+-   <u>Geospatial</u>: Linking projects to specific regions in
     California such as Northern California (NorCal), North Central
     Valley (NCV), South Central Valley (SCV), and Southern California
     (SoCal). Linking projects to different legislative districts in
     California such as senate, congress, and assembly.
 
--   [Visualization:]{.underline} Creating summary tables, plots, and
+-   </u>Visualization</u>: Creating summary tables, plots, and
     maps for individual projects, market sectors, technology types, and
     geospatial boundaries.
 
