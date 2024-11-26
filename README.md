@@ -70,7 +70,7 @@ in the next version.
     (SoCal). Linking projects to different legislative districts in
     California such as senate, congress, and assembly.
 
--   </u>Visualization</u>: Creating summary tables, plots, and
+-   <ins>Visualization</ins>: Creating summary tables, plots, and
     maps for individual projects, market sectors, technology types, and
     geospatial boundaries.
 
@@ -86,20 +86,20 @@ districts obtained from the California State Geoportal Website.
 
 To get started:
 
-[Step 1:]{.underline} Preparation of the input data. The input Excel
+<ins>Step 1</ins>: Preparation of the input data. The input Excel
 spreadsheet includes six tabs and should be prepared as follows:
 
-1.  [LCA parameters:]{.underline} Default life cycle inventory including
+1.  <ins>LCA parameters</ins>: Default life cycle inventory including
     electricity use, water use, and emission factors collected from
     literature, US DOE H2A model, GREET model, and eGRID. **No user
     input** is needed in this tab to run the code.
 
-2.  [TEA parameters:]{.underline} Default capital, electricity costs,
+2.  <ins>TEA parameters</ins>: Default capital, electricity costs,
     water costs and other operation and maintenance costs collected from
     literature, US DOE H2A model, and HDSAM model. **No user input** is
     needed in this tab.
 
-3.  [Producer:]{.underline} Data for each projects including production,
+3.  <ins>Producer</ins>: Data for each projects including production,
     liquefaction and/or compression, storage, and transport. **Mandatory
     user inputs** in this tab are:
 
@@ -158,12 +158,12 @@ emissions from biomass conversion,* and *PM10 emissions from biomass
 conversion*), which if known by user should be typed in the specified
 units.
 
-4.  [Supply:]{.underline} Year-specific average daily hydrogen
+4.  <ins>Supply</ins>: Year-specific average daily hydrogen
     production data in specified units for each of the producers entered
     in the "Producer" tab. **User input is mandatory** for this tab to
     run the code.
 
-5.  [End-user:]{.underline} Data for each end-user projects. **All
+5.  <ins>End-user</ins>: Data for each end-user projects. **All
     inputs are mandatory** in this tab:
 
     -   *Name*: type project name.
@@ -178,95 +178,95 @@ units.
         These inputs represent the type of fuel avoided by H<sub>2</sub>. These
         inputs are case-sensitive.
 
-6.  [Demand:]{.underline} Year-specific average daily hydrogen demand
+6.  <ins>Demand</ins>: Year-specific average daily hydrogen demand
     data in specified units for each of the endusers entered in the
     "Enduser" tab. **User input is mandatory** for this tab to run the
     code.
 
-[Step 2:]{.underline} Open the code in an IDE and set the directory for
+<ins>Step 2</ins>: Open the code in an IDE and set the directory for
 the input Excel spreadsheet and shapefiles folder so that the code can
 pull the data for analysis and modeling.
 
-[Step 3:]{.underline} Run the code. Note that after the first run,
+<ins>Step 3</ins>: Run the code. Note that after the first run,
 installing the packages is not required and can be deactivated by
 putting "#" in front of the "install.packages()" to make the later runs
 quicker.
 
-[Step 4:]{.underline} Once the code run is complete, the results will be
+<ins>Step 4</ins>: Once the code run is complete, the results will be
 saved in the same directory under the "Results" folder (note that the
 existing files will be replaced by newer files with each run. Hence,
 change the name of the main folder if needed for later comparison):
 
-1.  [District_results.xlsx:]{.underline} This spreadsheet includes a
+1.  <ins>District_results.xlsx</ins>: This spreadsheet includes a
     summary of the environmental and economic impacts, categorized into
     senate, congressional, and assembly districts and producers and
     end-users.
 
-2.  [Producer:]{.underline}
+2.  <ins>Producer</ins>:
 
-    a.  [Emissions_CO2:]{.underline} Net CO<sub>2</sub> emissions from feedstock
+    a.  [Emissions_CO2</ins>: Net CO<sub>2</sub> emissions from feedstock
         preparation, H<sub>2</sub> production, H<sub>2</sub> compression and/or
         liquefaction, and H<sub>2</sub> transport.
 
-        i.  [Regional_CO2_emissions.jpg:]{.underline} Map with regional
+        i.  <ins> Regional_CO2_emissions.jpg </ins>: Map with regional
             CO<sub>2</sub> emissions.
 
-        ii. [Temporal_CO2_emissions.jpg:]{.underline} Plot with temporal
+        ii. <ins>Temporal_CO2_emissions.jpg</ins>: Plot with temporal
             CO<sub>2</sub> emissions.
 
-        iii. [Breakdown_CO2_emissions.jpg:]{.underline} Plot with
+        iii. [Breakdown_CO2_emissions.jpg</ins>: Plot with
              breakdown of CO<sub>2</sub> emissions.
 
-    b.  [Emissions_other:]{.underline} Other criteria emissions from
+    b.  <ins>Emissions_other</ins>: Other criteria emissions from
         feedstock preparation, H<sub>2</sub> production, H<sub>2</sub> compression and/or
         liquefaction, and H<sub>2</sub> transport.
 
-        i.  [Regional_SO2_emissions.jpg:]{.underline} Map with regional
+        i.  [Regional_SO2_emissions.jpg</ins>: Map with regional
             SO<sub>2</sub> emissions.
 
-        ii. [Regional_NOx_emissions.jpg:]{.underline} Map with regional
+        ii. [Regional_NOx_emissions.jpg</ins>: Map with regional
             NO~x~ emissions.
 
-        iii. [Regional_PM10_emissions.jpg:]{.underline} Map with
+        iii. [Regional_PM10_emissions.jpg</ins>: Map with
              regional PM10 emissions.
 
-    c.  [Costs:]{.underline} Total costs from feedstock preparation,
+    c.  [Costs</ins>: Total costs from feedstock preparation,
         H<sub>2</sub> production, H<sub>2</sub> compression and/or liquefaction, and H<sub>2</sub>
         transport.
 
-        i.  [Regional_cost.jpg:]{.underline} Map with regional total
+        i.  [Regional_cost.jpg</ins>: Map with regional total
             costs.
 
-        ii. [Temporal_cost.jpg:]{.underline} Plot with temporal total
+        ii. [Temporal_cost.jpg</ins>: Plot with temporal total
             costs.
 
-        iii. [Breakdown_cost.jpg:]{.underline} Plot with breakdown of
+        iii. [Breakdown_cost.jpg</ins>: Plot with breakdown of
              total costs.
 
-3.  [Enduser:]{.underline}
+3.  <ins>Enduser</ins>:
 
-    a.  [Emissions_CO2:]{.underline} Net CO<sub>2</sub> emissions avoided by
+    a.  <ins>Emissions_CO2</ins>: Net CO<sub>2</sub> emissions avoided by
         endusers.
 
-        i.  [Regional_CO2_avoided.jpg:]{.underline} Map with regional
+        i.  <ins>Regional_CO2_avoided.jpg</ins>: Map with regional
             CO<sub>2</sub> emissions.
 
-        ii. [Temporal_CO2_avoided.jpg:]{.underline} Plot with temporal
+        ii. [Temporal_CO2_avoided.jpg</ins>: Plot with temporal
             CO<sub>2</sub> emissions.
 
-        iii. [Breakdown_CO2_avoided.jpg:]{.underline} Plot with
+        iii. [Breakdown_CO2_avoided.jpg</ins>: Plot with
              breakdown of CO<sub>2</sub> emissions.
 
-    b.  [Emissions_other:]{.underline} Other criteria emissions avoided
+    b.  <ins>Emissions_other</ins>: Other criteria emissions avoided
         by endusers.
 
-        i.  [Regional_SO2_emissions.jpg:]{.underline} Map with regional
+        i.  <ins>Regional_SO2_emissions.jpg</ins>: Map with regional
             SO<sub>2</sub> emissions.
 
-        ii. [Regional_NOx_emissions.jpg:]{.underline} Map with regional
+        ii. [Regional_NOx_emissions.jpg</ins>: Map with regional
             NO~x~ emissions.
 
-        iii. [Regional_PM10_emissions.jpg:]{.underline} Map with
+        iii. [Regional_PM10_emissions.jpg</ins>: Map with
              regional PM10 emissions.
 
 Copyright Notice
