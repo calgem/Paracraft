@@ -21,24 +21,24 @@ Version 1 of the tool includes modules for the following components:
     agreement, and renewables), water, and biomass (municipal solid
     waste and woody waste)
 
-2.  <u>Production</u>: Alkaline water electrolysis, Proton
+2.  <ins>Production</ins>: Alkaline water electrolysis, Proton
     exchange membrane (PEM) water electrolysis, Biomass thermochemical
     conversion, and Biomass gasification.
 
-3.  <u>Infrastructure/storage</u>: H<sub>2</sub> compression, H<sub>2</sub>
+3.  <ins>Infrastructure/storage</ins>: H<sub>2</sub> compression, H<sub>2</sub>
     liquefaction, and storage for compressed and liquefied H<sub>2</sub>.
 
-4.  [Distribution:]{.underline} Truck transport of compressed and
+4.  <ins>Distribution</ins>:Truck transport of compressed and
     liquefied H<sub>2</sub> and pipeline transport of compressed H<sub>2</sub>.
 
-5.  [End-use:]{.underline} Refueling stations and medium duty class 6
+5.  <ins>End-use</ins>: Refueling stations and medium duty class 6
     trucks, transit buses, fuel cell and peaker plant for power
     generation, and aviation fuel.
 
 The environmental impacts from LCA are quantified as net carbon dioxide
 equivalent emissions (kg CO<sub>2</sub>e/kg H<sub>2</sub>), sulfur dioxide emissions (g
-SO<sub>2</sub>/kg H<sub>2</sub>), nitrogen oxide emissions (g NO~x~/kg H<sub>2</sub>), and
-particulate matter emissions (g PM~10~/kg H<sub>2</sub> and g PM~2.5~/kg H<sub>2</sub>).
+SO<sub>2</sub>/kg H<sub>2</sub>), nitrogen oxide emissions (g NO<sub>x</sub>/kg H<sub>2</sub>), and
+particulate matter emissions (g PM<sub>10</sub>/kg H<sub>2</sub> and g PM<sub>2.5</sub>/kg H<sub>2</sub>).
 Health impacts and benefits associated with net changes in air quality
 will be provided in a subsequent version.
 
@@ -49,22 +49,22 @@ subsequent version following the approach used in the DOE H2FAST model.
 
 ***Capabilities of version 1***
 
--   <u>Projects</u>: Flexible inclusion, exclusion, and
+-   <ins>Projects</ins>: Flexible inclusion, exclusion, and
     modification of projects in a hub over time.
 
--   <u>LCA</u>: Emissions from feedstock preparation and
+-   <ins>LCA</ins>: Emissions from feedstock preparation and
     acquisition, H<sub>2</sub> production, H<sub>2</sub> postprocessing and compression
     and/or liquefaction, H<sub>2</sub> transport, and avoided emissions from H<sub>2</sub>
     end-uses that offset current fossil fuel consumption.
 
--   <u>TEA</u>: Total levelized cost (capital, operation and
+-   <ins>TEA</ins>: Total levelized cost (capital, operation and
     maintenance) of feedstock preparation, H<sub>2</sub> production, H<sub>2</sub>
     compression and/or liquefaction, and H<sub>2</sub> transport.
 
 End-user markup and total levelized cost to consumers will be available
 in the next version.
 
--   <u>Geospatial</u>: Linking projects to specific regions in
+-   <ins>Geospatial</ins>: Linking projects to specific regions in
     California such as Northern California (NorCal), North Central
     Valley (NCV), South Central Valley (SCV), and Southern California
     (SoCal). Linking projects to different legislative districts in
