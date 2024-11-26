@@ -17,7 +17,7 @@ Renewable Energy Laboratory, ARCHES LLC, and Jacobs.
 
 Version 1 of the tool includes modules for the following components:
 
-1.  <u>Feedstock</u>: Electricity (grid, power purchase
+1.  <ins>Feedstock</ins>: Electricity (grid, power purchase
     agreement, and renewables), water, and biomass (municipal solid
     waste and woody waste)
 
