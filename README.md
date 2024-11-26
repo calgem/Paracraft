@@ -229,7 +229,7 @@ change the name of the main folder if needed for later comparison):
 
        &nbsp;&nbsp;&nbsp;&nbsp;iii. <ins>Regional_PM10_emissions.jpg</ins>: Map with
              regional PM10 emissions.
-             
+
     c.  <ins>Costs</ins>: Total costs from feedstock preparation,
         H<sub>2</sub> production, H<sub>2</sub> compression and/or liquefaction, and H<sub>2</sub>
         transport.
@@ -264,7 +264,7 @@ change the name of the main folder if needed for later comparison):
             SO<sub>2</sub> emissions.
 
        &nbsp;&nbsp;&nbsp;&nbsp;ii. <ins>Regional_NOx_emissions.jpg</ins>: Map with regional
-            NO~x~ emissions.
+            NO<sub>x</sub> emissions.
 
        &nbsp;&nbsp;&nbsp;&nbsp;iii. <ins>Regional_PM10_emissions.jpg</ins>: Map with
              regional PM10 emissions.
