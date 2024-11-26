@@ -49,7 +49,7 @@ subsequent version following the approach used in the DOE H2FAST model.
 
 ***Capabilities of version 1***
 
--   [Projects:]{.underline} Flexible inclusion, exclusion, and
+-   **Projects**: Flexible inclusion, exclusion, and
     modification of projects in a hub over time.
 
 -   [LCA:]{.underline} Emissions from feedstock preparation and
