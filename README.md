@@ -208,37 +208,38 @@ change the name of the main folder if needed for later comparison):
         preparation, H<sub>2</sub> production, H<sub>2</sub> compression and/or
         liquefaction, and H<sub>2</sub> transport.
 
-       i.  <ins>Regional_CO2_emissions.jpg </ins>: Map with regional
+       &nbsp;&nbsp;&nbsp;&nbsp;i.  <ins>Regional_CO2_emissions.jpg </ins>: Map with regional
             CO<sub>2</sub> emissions.
-       ii. <ins>Temporal_CO2_emissions.jpg</ins>: Plot with temporal
+
+       &nbsp;&nbsp;&nbsp;&nbsp;ii. <ins>Temporal_CO2_emissions.jpg</ins>: Plot with temporal
             CO<sub>2</sub> emissions.
-       iii. <ins>Breakdown_CO2_emissions.jpg</ins>: Plot with
+
+       &nbsp;&nbsp;&nbsp;&nbsp;iii. <ins>Breakdown_CO2_emissions.jpg</ins>: Plot with
              breakdown of CO<sub>2</sub> emissions.
     <br></br>
     b.  <ins>Emissions_other</ins>: Other criteria emissions from
         feedstock preparation, H<sub>2</sub> production, H<sub>2</sub> compression and/or
         liquefaction, and H<sub>2</sub> transport.
 
-       i.  <ins>Regional_SO2_emissions.jpg</ins>: Map with regional
+       &nbsp;&nbsp;&nbsp;&nbsp;i.  <ins>Regional_SO2_emissions.jpg</ins>: Map with regional
             SO<sub>2</sub> emissions.
 
-       ii. <ins>Regional_NOx_emissions.jpg</ins>: Map with regional
+       &nbsp;&nbsp;&nbsp;&nbsp;ii. <ins>Regional_NOx_emissions.jpg</ins>: Map with regional
             NO<sub>x</sub> emissions.
 
-       iii. <ins>Regional_PM10_emissions.jpg</ins>: Map with
+       &nbsp;&nbsp;&nbsp;&nbsp;iii. <ins>Regional_PM10_emissions.jpg</ins>: Map with
              regional PM10 emissions.
-    <br></br>
     c.  <ins>Costs</ins>: Total costs from feedstock preparation,
         H<sub>2</sub> production, H<sub>2</sub> compression and/or liquefaction, and H<sub>2</sub>
         transport.
 
-       i.  <ins>Regional_cost.jpg</ins>: Map with regional total
+       &nbsp;&nbsp;&nbsp;&nbsp;i.  <ins>Regional_cost.jpg</ins>: Map with regional total
             costs.
 
-       ii. <ins>Temporal_cost.jpg</ins>: Plot with temporal total
+       &nbsp;&nbsp;&nbsp;&nbsp;ii. <ins>Temporal_cost.jpg</ins>: Plot with temporal total
             costs.
 
-       iii. <ins>Breakdown_cost.jpg</ins>: Plot with breakdown of
+       &nbsp;&nbsp;&nbsp;&nbsp;iii. <ins>Breakdown_cost.jpg</ins>: Plot with breakdown of
              total costs.
 
 3.  <ins>Enduser</ins>:
@@ -246,26 +247,25 @@ change the name of the main folder if needed for later comparison):
     a.  <ins>Emissions_CO2</ins>: Net CO<sub>2</sub> emissions avoided by
         endusers.
 
-       i.  <ins>Regional_CO2_avoided.jpg</ins>: Map with regional
+       &nbsp;&nbsp;&nbsp;&nbsp;i.  <ins>Regional_CO2_avoided.jpg</ins>: Map with regional
             CO<sub>2</sub> emissions.
 
-       ii. <ins>Temporal_CO2_avoided.jpg</ins>: Plot with temporal
+       &nbsp;&nbsp;&nbsp;&nbsp;ii. <ins>Temporal_CO2_avoided.jpg</ins>: Plot with temporal
             CO<sub>2</sub> emissions.
 
-       iii. <ins>Breakdown_CO2_avoided.jpg</ins>: Plot with
+       &nbsp;&nbsp;&nbsp;&nbsp;iii. <ins>Breakdown_CO2_avoided.jpg</ins>: Plot with
              breakdown of CO<sub>2</sub> emissions.
 
-    <br></br>
     b.  <ins>Emissions_other</ins>: Other criteria emissions avoided
         by endusers.
 
-       i.  <ins>Regional_SO2_emissions.jpg</ins>: Map with regional
+       &nbsp;&nbsp;&nbsp;&nbsp;i.  <ins>Regional_SO2_emissions.jpg</ins>: Map with regional
             SO<sub>2</sub> emissions.
 
-       ii. <ins>Regional_NOx_emissions.jpg</ins>: Map with regional
+       &nbsp;&nbsp;&nbsp;&nbsp;ii. <ins>Regional_NOx_emissions.jpg</ins>: Map with regional
             NO~x~ emissions.
 
-       iii. <ins>Regional_PM10_emissions.jpg</ins>: Map with
+       &nbsp;&nbsp;&nbsp;&nbsp;iii. <ins>Regional_PM10_emissions.jpg</ins>: Map with
              regional PM10 emissions.
 
 Copyright Notice
