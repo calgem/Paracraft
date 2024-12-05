@@ -79,7 +79,7 @@ Development Environments) such as Rstudio and Visual Studio, the tool
 requires a partially user-defined input Excel spreadsheet
 ("H2hub_input.xlsx") and GIS (Geographic Information System) shapefiles
 located in the "Geodata" folder. The "Geodata" folder includes polygon
-shapefiles for regions, utilities, senate, congressional, and assembly
+shapefiles for regions in California, utilities, senate, congressional, and assembly
 districts obtained from the California State Geoportal Website.
 
 To get started:
@@ -122,11 +122,9 @@ spreadsheet includes six tabs and should be prepared as follows:
         between 0 and 1. When using multiple electricity sources, user
         should make sure that the sum of the ratios is 1.
 
-    -   *Biomass type*: Type "Woody" or "MSW". These inputs are
-        case-sensitive.
+    -   *Biomass type*: Type "Woody" or "MSW". These inputs are case-sensitive.
 
-    -   *Biomass consumption*: Type biomass used for H<sub>2</sub> production in
-        in specified units.
+    -   *Biomass consumption*: Type biomass used for H<sub>2</sub> production in specified units.
 
     -   *Biomass emissions avoidance source*: Type "Landfill" or "N/A".
         These inputs are case-sensitive.
@@ -150,16 +148,10 @@ Apart from the mandatory and optional user inputs, there are **default
 inputs** (*Labor cost, Electrolyzer maintenance cost, KOH and/or N<sub>2</sub>
 cost, Liquefier maintenance cost, Natural gas consumption by biomass
 conversion, Diesel consumption by biomass conversion, Biomass transport
-and preparation emissions, Biomass conversion maintenance emissions,
-Soil carbon storage, SO<sub>2</sub> emissions from biomass conversion, NO~x~
-emissions from biomass conversion,* and *PM10 emissions from biomass
-conversion*), which if known by user should be typed in the specified
+and preparation emissions, Biomass conversion maintenance emissions, Soil carbon storage, SO<sub>2</sub> emissions from biomass conversion, NO<sub>x</sub> emissions from biomass conversion,* and *PM10 emissions from biomass conversion*), which if known by user should be typed in the specified
 units.
 
-4.  <ins>Supply</ins>: Year-specific average daily hydrogen
-    production data in specified units for each of the producers entered
-    in the "Producer" tab. **User input is mandatory** for this tab to
-    run the code.
+4.  <ins>Supply</ins>: Year-specific average daily H<sub>2</sub> production data in specified units for each of the producers entered in the "Producer" tab. **User input is mandatory** for this tab to run the code.
 
 5.  <ins>End-user</ins>: Data for each end-user projects. **All
     inputs are mandatory** in this tab:
@@ -176,10 +168,7 @@ units.
         These inputs represent the type of fuel avoided by H<sub>2</sub>. These
         inputs are case-sensitive.
 
-6.  <ins>Demand</ins>: Year-specific average daily hydrogen demand
-    data in specified units for each of the endusers entered in the
-    "Enduser" tab. **User input is mandatory** for this tab to run the
-    code.
+6.  <ins>Demand</ins>: Year-specific average daily H<sub>2</sub> demand data in specified units for each of the endusers entered in the "Enduser" tab. **User input is mandatory** for this tab to run the code.
 
 <ins>Step 2</ins>: Open the code in an IDE and set the directory for
 the input Excel spreadsheet and shapefiles folder so that the code can
