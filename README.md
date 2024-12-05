@@ -28,7 +28,7 @@ Version 1 of the tool includes modules for the following components:
 3.  <ins>Infrastructure/storage</ins>: H<sub>2</sub> compression, H<sub>2</sub>
     liquefaction, and storage for compressed and liquefied H<sub>2</sub>.
 
-4.  <ins>Distribution</ins>:Truck transport of compressed and
+4.  <ins>Distribution</ins>: Truck transport of compressed and
     liquefied H<sub>2</sub> and pipeline transport of compressed H<sub>2</sub>.
 
 5.  <ins>End-use</ins>: Refueling stations and medium duty class 6
@@ -59,9 +59,7 @@ subsequent version following the approach used in the DOE H2FAST model.
 
 -   <ins>TEA</ins>: Total levelized cost (capital, operation and
     maintenance) of feedstock preparation, H<sub>2</sub> production, H<sub>2</sub>
-    compression and/or liquefaction, and H<sub>2</sub> transport.
-
-End-user markup and total levelized cost to consumers will be available
+    compression and/or liquefaction, and H<sub>2</sub> transport. End-user markup and total levelized cost to consumers will be available
 in the next version.
 
 -   <ins>Geospatial</ins>: Linking projects to specific regions in
