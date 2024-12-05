@@ -11,7 +11,7 @@ distribution, and end-use of H<sub>2</sub> within the system boundary. Additiona
 modules and impacts will be integrated into the software throughout the
 Department of Energy (DOE) ARCHES hydrogen hub project through a
 multi-institution collaboration involving the Lawrence Berkeley National
-Laboratory, University of California Davis, University of California,
+Laboratory, University of California Davis, University of California
 Berkeley, University of California Irvine, Renewables100, National
 Renewable Energy Laboratory, ARCHES LLC, and Jacobs.
 
